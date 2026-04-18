@@ -1,9 +1,11 @@
 
 # 🛠 1. Setup ban đầu
-Môi trường đã được chuẩn hóa. Anh em cài đặt các thư viện hỗ trợ vẽ plot và quản lý dữ liệu:Bashpip install -r requirements.txt
+Môi trường đã được chuẩn hóa. Anh em cài đặt các thư viện hỗ trợ vẽ plot và quản lý dữ liệu:
+    pip install -r requirements.txt
 # 🚀 2. Quy trình sau khi Train xong
 Sau khi hoàn thành một Run , anh em thực hiện theo 3 bước:
- ## Bước 2.1: Xuất đồ thị chuẩn (Auto-Plot)Không tự vẽ bằng Excel hay công cụ khác. Sử dụng module visualizer.py có sẵn trong Repo để xuất hình đúng format Academic
+ ## Bước 2.1: Xuất đồ thị chuẩn (Auto-Plot)
+ Không tự vẽ bằng Excel hay công cụ khác. Sử dụng module visualizer.py có sẵn trong Repo để xuất hình đúng format Academic
     from scripts.visualizer import save_learning_curves
     # history.csv: file chứa log train_loss, test_loss, train_acc, test_acc qua từng epoch
     save_learning_curves(
