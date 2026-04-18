@@ -34,9 +34,9 @@ vd: plot/EXP32_REGIME2_TRAIN/
 Folder BẮT BUỘC phải có đủ 3 file sau:
 
 
-history.csv: File log thô từng epoch (để Minh Ngo tổng hợp so sánh).
+history.csv: File log thô từng epoch .
 
-curves.png: Hình Acc/Loss (tạo từ Bước 2.1, Nhớ đổi tên và kéo vô đúng folder).
+curves.png: Hình Acc/Loss (tạo từ Bước 2.1).
 
 writer_acc.csv: Bảng accuracy chi tiết của từng Writer (để tính Writer Bias).
  ## Bước 2.3: Cập nhật Master Tracker
