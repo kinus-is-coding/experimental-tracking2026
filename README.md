@@ -40,5 +40,5 @@ curves.png: Hình Acc/Loss (tạo từ Bước 2.1).
 
 writer_acc.csv: Bảng accuracy chi tiết của từng Writer (để tính Writer Bias).
  ## Bước 2.3: Cập nhật Master Tracker
-Điền các chỉ số cuối cùng (Final Acc, Final Loss) vào bảng tổng hợp tại đây:
+Điền các chỉ số cuối cùng (Train Acc, Train Loss, Test Acc,Test Loss) vào bảng tổng hợp tại đây:
 👉 [https://docs.google.com/spreadsheets/d/1qcz7xIk4dwnGrJrhjVTz1VXjDyWkMGr7W1mfCyi2hT4/edit?usp=sharing]
