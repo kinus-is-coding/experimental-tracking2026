@@ -15,9 +15,9 @@ Sau khi hoàn thành một Run , anh em thực hiện theo 3 bước:
     from scripts.visualizer import save_learning_curves
     # history.csv: file chứa log train_loss, test_loss, train_acc, test_acc qua từng epoch
     save_learning_curves(
-        history_csv='path/to/EXPxxx_history.csv', 
+        history_csv='path/to/history.csv', 
         run_id='EXPxxx', 
-        output_dir='plot/EXPxxx_RegimeName/'
+        output_dir='[directory]' # folder tao. trong buoc 2.2
     )
         
 
